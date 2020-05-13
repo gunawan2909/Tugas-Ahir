@@ -1,0 +1,10 @@
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\bin\Debug\Tugas Ahir.exe.config
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\bin\Debug\Tugas Ahir.exe
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\bin\Debug\Tugas Ahir.pdb
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.csprojAssemblyReference.cache
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.Form1.resources
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.Properties.Resources.resources
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.csproj.GenerateResource.cache
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.csproj.CoreCompileInputs.cache
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.exe
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.pdb
