@@ -8,3 +8,7 @@ D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tu
 D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.csproj.CoreCompileInputs.cache
 D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.exe
 D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas Ahir.pdb
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.DataInduk.resources
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.KKM.resources
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.DataSiswa.resources
+D:\UNDIP\semester 2\praktikum dasar kompuer pemprogaman\tugas ahir\Tugas Ahir\Tugas Ahir\obj\Debug\Tugas_Ahir.Raport.resources
