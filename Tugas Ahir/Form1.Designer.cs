@@ -64,7 +64,6 @@
             this.groupBoxRapot = new System.Windows.Forms.GroupBox();
             this.textBoxNoAbsn = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.textSemester = new System.Windows.Forms.Label();
             this.textTahunAjar = new System.Windows.Forms.Label();
             this.textKelas = new System.Windows.Forms.Label();
@@ -395,6 +394,9 @@
             this.N19 = new System.Windows.Forms.Label();
             this.N20 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -805,7 +807,6 @@
             this.groupBoxRapot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBoxRapot.Controls.Add(this.textBoxNoAbsn);
             this.groupBoxRapot.Controls.Add(this.button5);
-            this.groupBoxRapot.Controls.Add(this.button6);
             this.groupBoxRapot.Controls.Add(this.textSemester);
             this.groupBoxRapot.Controls.Add(this.textTahunAjar);
             this.groupBoxRapot.Controls.Add(this.textKelas);
@@ -841,16 +842,6 @@
             this.button5.Text = "Cari";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.AutoEllipsis = true;
-            this.button6.Location = new System.Drawing.Point(51, 794);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(162, 36);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Lanjut ";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // textSemester
             // 
@@ -1024,6 +1015,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.labelMataPelajaran.AutoSize = true;
             this.labelMataPelajaran.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMataPelajaran.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.labelMataPelajaran.Location = new System.Drawing.Point(4, 48);
             this.labelMataPelajaran.Name = "labelMataPelajaran";
             this.labelMataPelajaran.Size = new System.Drawing.Size(14, 604);
@@ -1066,6 +1058,7 @@
             this.groupBoxDataInduk.Controls.Add(this.label12);
             this.groupBoxDataInduk.Controls.Add(this.labelKelas);
             this.groupBoxDataInduk.Controls.Add(this.labelSemestet);
+            this.groupBoxDataInduk.Controls.Add(this.label39);
             this.groupBoxDataInduk.Controls.Add(this.LabelSekolah);
             this.groupBoxDataInduk.Controls.Add(this.label16);
             this.groupBoxDataInduk.Controls.Add(this.labelTahunAjar);
@@ -1099,6 +1092,7 @@
             // 
             this.MataPelajaran.AutoSize = true;
             this.MataPelajaran.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MataPelajaran.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.MataPelajaran.Location = new System.Drawing.Point(3, 27);
             this.MataPelajaran.Name = "MataPelajaran";
             this.MataPelajaran.Size = new System.Drawing.Size(16, 22);
@@ -1256,7 +1250,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(199, 35);
             this.button10.TabIndex = 8;
-            this.button10.Text = "Cetak";
+            this.button10.Text = "Edit";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -1319,6 +1313,7 @@
             // 
             this.labelNama.AutoSize = true;
             this.labelNama.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNama.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.labelNama.Location = new System.Drawing.Point(44, 59);
             this.labelNama.Name = "labelNama";
             this.labelNama.Size = new System.Drawing.Size(13, 20);
@@ -1577,7 +1572,7 @@
             this.groupBox4.Size = new System.Drawing.Size(235, 675);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Mata Pelajaran";
+            this.groupBox4.Text = "Nama Siswa";
             // 
             // Nama8
             // 
@@ -1901,6 +1896,7 @@
             this.groupBox1.Controls.Add(this.MP2);
             this.groupBox1.Controls.Add(this.MP1);
             this.groupBox1.Controls.Add(this.MP54);
+            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.NamaDnil);
             this.groupBox1.Controls.Add(this.MP60);
             this.groupBox1.Controls.Add(this.MP53);
@@ -4057,6 +4053,36 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(644, 41);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(157, 25);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Mata Pelajaran";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Arial", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(515, 66);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(241, 72);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Raport ";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(211, 14);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(269, 55);
+            this.label39.TabIndex = 7;
+            this.label39.Text = "Data Induk ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4066,9 +4092,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label36);
             this.Controls.Add(this.groupBoxRapot);
-            this.Controls.Add(this.groupBoxNamaInput);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBoxNamaInput);
             this.Controls.Add(this.groupBoxDataIndukInput);
             this.Controls.Add(this.groupBoxSiswa);
             this.Controls.Add(this.groupBoxDataInduk);
@@ -4107,6 +4134,7 @@
             this.DataIndukKKM.ResumeLayout(false);
             this.DataIndukKKM.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -4146,7 +4174,6 @@
         private System.Windows.Forms.GroupBox groupBoxRapot;
         private System.Windows.Forms.TextBox textBoxNoAbsn;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label textSemester;
         private System.Windows.Forms.Label textTahunAjar;
         private System.Windows.Forms.Label textKelas;
@@ -4478,6 +4505,9 @@
         private System.Windows.Forms.Label N2;
         private System.Windows.Forms.Label N1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label36;
     }
 }
 
