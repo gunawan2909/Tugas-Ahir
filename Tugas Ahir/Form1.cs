@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -193,9 +194,24 @@ namespace Tugas_Ahir
             groupBoxDataInduk.BringToFront();
             this.LabelSekolah.Text = this.NamaSekolah.Text;
             this.labelKelas.Text = this.Kelas.Text;
-            this.labelSemestet.Text = this.SemesterIn.Text;
+            String a, b, c, d, z, f, g, h, i, j, k, A, B, C, D, E, F, G, H, I, J, K;
+            a = this.SemesterIn.Text;
+            b = "2";
+            c = "3";
+            d = "4";
+            h = "5";
+            f = "6";
+            if ((a=="1")|| (a == "2") || (a == "3") || (a == "4") || (a == "5") || (a == "6"))
+            {
+                this.labelSemestet.Text = this.SemesterIn.Text;
+            }
+            else
+            {
+                this.labelSemestet.Text = "ERROR INPUT";
+            }
+           
             this.labelTahunAjar.Text= this.TahunAjar.Text;
-            String a, b,c,d,z,f,g,h,i,j,k,A,B,C,D,E,F,G,H,I,J,K;
+            
             DataBesar masuk = new DataBesar();
             a = this.MataPelajaran1.Text;
             b = this.MataPelajaran2.Text;
