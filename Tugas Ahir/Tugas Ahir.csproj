@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBesar.cs" />
     <Compile Include="DataInduk.cs">
       <SubType>UserControl</SubType>
     </Compile>

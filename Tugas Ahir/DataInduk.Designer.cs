@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textNamaSekolah = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textKelas = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textTahunAjar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textSemester = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelMataPelajaran = new System.Windows.Forms.Label();
+            this.labelKKM = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -58,13 +58,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama Sekolah ";
             // 
-            // textBox1
+            // textNamaSekolah
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(273, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 26);
-            this.textBox1.TabIndex = 1;
+            this.textNamaSekolah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textNamaSekolah.Location = new System.Drawing.Point(273, 46);
+            this.textNamaSekolah.Name = "textNamaSekolah";
+            this.textNamaSekolah.Size = new System.Drawing.Size(144, 26);
+            this.textNamaSekolah.TabIndex = 1;
             // 
             // label2
             // 
@@ -76,13 +76,13 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Kelas ";
             // 
-            // textBox2
+            // textKelas
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(273, 78);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(144, 26);
-            this.textBox2.TabIndex = 1;
+            this.textKelas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textKelas.Location = new System.Drawing.Point(273, 78);
+            this.textKelas.Name = "textKelas";
+            this.textKelas.Size = new System.Drawing.Size(144, 26);
+            this.textKelas.TabIndex = 1;
             // 
             // label4
             // 
@@ -94,13 +94,13 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Tahun ajar";
             // 
-            // textBox4
+            // textTahunAjar
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(584, 46);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(144, 26);
-            this.textBox4.TabIndex = 1;
+            this.textTahunAjar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textTahunAjar.Location = new System.Drawing.Point(584, 46);
+            this.textTahunAjar.Name = "textTahunAjar";
+            this.textTahunAjar.Size = new System.Drawing.Size(144, 26);
+            this.textTahunAjar.TabIndex = 1;
             // 
             // label5
             // 
@@ -112,13 +112,13 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Semester ";
             // 
-            // textBox5
+            // textSemester
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(584, 78);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(144, 26);
-            this.textBox5.TabIndex = 1;
+            this.textSemester.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textSemester.Location = new System.Drawing.Point(584, 78);
+            this.textSemester.Name = "textSemester";
+            this.textSemester.Size = new System.Drawing.Size(144, 26);
+            this.textSemester.TabIndex = 1;
             // 
             // label3
             // 
@@ -132,29 +132,29 @@
             this.label3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
-            // label6
+            // labelMataPelajaran
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 31);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(16, 22);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "-";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.label6.Click += new System.EventHandler(this.label3_Click_1);
+            this.labelMataPelajaran.AutoSize = true;
+            this.labelMataPelajaran.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMataPelajaran.Location = new System.Drawing.Point(3, 32);
+            this.labelMataPelajaran.Name = "labelMataPelajaran";
+            this.labelMataPelajaran.Size = new System.Drawing.Size(16, 22);
+            this.labelMataPelajaran.TabIndex = 0;
+            this.labelMataPelajaran.Text = "-";
+            this.labelMataPelajaran.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.labelMataPelajaran.Click += new System.EventHandler(this.label3_Click_1);
             // 
-            // label7
+            // labelKKM
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(317, 31);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 22);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "-";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.label7.Click += new System.EventHandler(this.label3_Click_1);
+            this.labelKKM.AutoSize = true;
+            this.labelKKM.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKKM.Location = new System.Drawing.Point(317, 32);
+            this.labelKKM.Name = "labelKKM";
+            this.labelKKM.Size = new System.Drawing.Size(16, 22);
+            this.labelKKM.TabIndex = 0;
+            this.labelKKM.Text = "-";
+            this.labelKKM.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.labelKKM.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // label9
             // 
@@ -200,9 +200,9 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.81081F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.18919F));
-            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.labelMataPelajaran, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.labelKKM, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label10, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(163, 186);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -250,13 +250,13 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textSemester);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textKelas);
+            this.Controls.Add(this.textTahunAjar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textNamaSekolah);
             this.Controls.Add(this.label1);
             this.Name = "DataInduk";
             this.Size = new System.Drawing.Size(887, 456);
@@ -270,16 +270,16 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textNamaSekolah;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textKelas;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textTahunAjar;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textSemester;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelMataPelajaran;
+        private System.Windows.Forms.Label labelKKM;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button1;

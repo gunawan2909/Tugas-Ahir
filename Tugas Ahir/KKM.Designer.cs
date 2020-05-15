@@ -30,9 +30,9 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textMataPelajaran = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textKKM = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -58,13 +58,13 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nama Mata Pelajaran ";
             // 
-            // textBox1
+            // textMataPelajaran
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(221, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(137, 26);
-            this.textBox1.TabIndex = 2;
+            this.textMataPelajaran.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textMataPelajaran.Location = new System.Drawing.Point(221, 43);
+            this.textMataPelajaran.Name = "textMataPelajaran";
+            this.textMataPelajaran.Size = new System.Drawing.Size(137, 26);
+            this.textMataPelajaran.TabIndex = 2;
             // 
             // label2
             // 
@@ -76,13 +76,13 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "KKM ";
             // 
-            // textBox2
+            // textKKM
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(221, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(137, 26);
-            this.textBox2.TabIndex = 2;
+            this.textKKM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textKKM.Location = new System.Drawing.Point(221, 104);
+            this.textKKM.Name = "textKKM";
+            this.textKKM.Size = new System.Drawing.Size(137, 26);
+            this.textKKM.TabIndex = 2;
             // 
             // button2
             // 
@@ -100,9 +100,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textKKM);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textMataPelajaran);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -117,9 +117,9 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textMataPelajaran;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textKKM;
         private System.Windows.Forms.Button button2;
     }
 }
